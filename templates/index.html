@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <H1>Verificador de Triângulos</H1>
+
+    <form method="post">
+        <label>
+            <input type="radio" name="tipo" value="lado" required>
+            Lados
+        </label>
+        <label>
+            <input type="radio" name="tipo" value="angulo" required>
+            Ângulos
+        </label>
+        <br />
+        <label>Valor 1:</label>
+        <input type="number" id="valor1" name="valor1" required>
+        <br />
+        <label>Valor 2:</label>
+        <input type="number" id="valor2" name="valor2" required>
+        <br />
+        <label>Valor 3:</label>
+        <input type="number" id="valor3" name="valor3" required>
+        <br>
+        <input type="submit" value="Verificar" >
+    </form>
+{% endblock %}
