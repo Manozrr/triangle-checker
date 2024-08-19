@@ -1,0 +1,10 @@
+:root {
+    --color1:blue;
+}
+body { 
+    background: darkorchid;
+    color var (--collor-text);
+    font-family: Ubuntu;
+    
+
+}
